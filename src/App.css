@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  font-size: 16px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+header {
+  padding: 20px 0 10px;
+}
+
+main {
+  padding: 20px 40px;
+}
+
+.hide {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+section.search form {
+  display: grid;
+  grid-template-columns: 30px 1fr 100px;
+  grid-column-gap: 10px;
+}
+
+section.search form > * {
+  align-self: center;
+}
+
+section.search input,
+section.search button {
+  height: 40px;
+  font-size: 16px;
+}
+
+section.search input {
+  padding-left: 40px;
+}
+
+section.search .search-icon {
+  height: 20px;
+}
+
+section.search label {
+  visibility: hidden;
+}
+
+section.page {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  margin: 10px auto;
+}
+
+section.page .page-number {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+section.page .page-number a, section.page h3 {
+  margin: 0 10px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  padding: 10px 40px;
+  margin: 10px 40px;
+  border: 1px solid lightgrey;
+}
+
+article .poster {
+  align-self: center;
+  background-color: grey;
+}
+
+article .details p {
+  text-align: left;
+}
+
+article .placeholder.poster {
+  background-color: grey;
+  width: 100px;
+  height: 200px;
+}
